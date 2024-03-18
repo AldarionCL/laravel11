@@ -29,3 +29,7 @@ B
 config/session.php,e/1/e1025c27321c40291fc56c4990ab2088a43c3269
 C
 resources/js/app.js,8/5/857628e89e6d3e0f341720284d70b5f44c757924
+]
+-app/Http/Controllers/Auth/LoginController.php,d/2/d2f6ed6918131d406f7abde65d228bce0ec7f88c
+X
+(app/Http/Controllers/LoginController.php,6/2/62048319f92904bcca2f2f77a6ad27c318717b5d
