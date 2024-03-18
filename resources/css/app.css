@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.apexcharts-text.apexcharts-xaxis-label{
+    font-size: 8px!important;
+}
+
+.group:hover .group-hover\:visible {
+    visibility: visible;
+}
+
+.group2:hover .group2-hover\:visible {
+    visibility: visible;
+}
