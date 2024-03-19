@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
@@ -52,13 +53,10 @@ class LoginController extends Controller
                 Log::info('Token incorrecto');
                 return Redirect::away(env('APP_URL'));
             }
-        if ($request->token !== "6461433ef90325a215111f2af1464b2d09f2ba23")
-        {
-            Log::info('Token incorrecto');
-            return Redirect::away('http://200.72.102.124/respaldo/htmlv1/Home.html');
-        }
 
-            if (Auth::loginUsingId($credentials)) {
+
+            if (Auth::loginUsingId($request->id)) {
+
                 $request->session()->regenerate();
 
                 if (session()->get('call') === 0 || session()->get('call') === 2) {

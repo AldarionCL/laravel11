@@ -33,3 +33,13 @@ C
 -app/Http/Controllers/Auth/LoginController.php,d/2/d2f6ed6918131d406f7abde65d228bce0ec7f88c
 X
 (app/Http/Controllers/LoginController.php,6/2/62048319f92904bcca2f2f77a6ad27c318717b5d
+B
+routes/console.php,d/d/dd5f3b20dd4fb12b39d7a3a0a5e1160fcceeb8c5
+?
+routes/auth.php,8/5/8585cb4cf8fdea0074bdad9e3b08e4087ed895ca
+>
+routes/web.php,6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305
+C
+app/Models/User.php,a/9/a90f2e50cb06863b54effced365aa5f1fe7d9c88
+p
+@resources/views/livewire/cpd/indicadores/indicador-cpd.blade.php,8/0/807be78bb36673992f26d1f88e0db33ec2d069e5
